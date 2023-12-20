@@ -1,4 +1,4 @@
-# US VISA Appointment Availabilities
+# US VISA Appointment Checker
 ---
 ## Guide 
 1. Create a file name `config.ini` following the existing `config.ini.example` file format to reconfigure your `country code`, `schedule id`, `city`, `session` and `user_agent` 
@@ -6,10 +6,10 @@
 
 ## How to find values for config file
 ### Country Code
-When you login to https://ais.usvisa-info.com/{country code}/niv. The url should contain your country code automatically.
+When you login to https://ais.usvisa-info.com/{country_code}/niv. The url should contain your country code automatically.
 
 ### Schedule Id 
-When you login to https://ais.usvisa-info.com/en-gb/niv/schedule/{schedule id}. The url shoul have your schedule id.
+When you login to https://ais.usvisa-info.com/en-gb/niv/schedule/{schedule_id}. The url shoul have your schedule id.
 
 ### City
 Write down the visa center's city location that you want to make your appointment.
