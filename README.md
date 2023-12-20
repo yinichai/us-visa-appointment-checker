@@ -3,6 +3,8 @@
 ## Guide 
 1. Create a file name `config.ini` following the existing `config.ini.example` file format to reconfigure your `country code`, `schedule id`, `city`, `session` and `user_agent` 
 2. Run the following command `./entry.sh` in your terminal.
+3. The earliest available slot will print out in the terminal.
+4. The current setup will trigger an alert sound in your local machine. You can add extra integrations to alert yourself. e.g. email/push notifications
 
 ## How to find values for config file
 ### Country Code
