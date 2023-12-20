@@ -36,7 +36,8 @@ country = config['DEFAULT']['COUNTRY_CODE']
 city = config['DEFAULT']['CITY']
 session = config['DEFAULT']['SESSION_ID'] 
 user_agent = config['DEFAULT']['USER_AGENT'] 
-
+year = config['DEFAULT']['YEAR'] 
+month = config['DEFAULT']['MONTH'] 
 
 def refresh(country_code, schedule_id, session):
     req = requests.Session()
